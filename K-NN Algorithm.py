@@ -73,7 +73,7 @@ targets[:5]
 # In[44]:
 
 
-features = preprocessing.StandardScaler().fit(X).transform(X.astype(float))
+features = preprocessing.StandardScaler().fit(features).transform(features.astype(float))
 features[0:5]
 
 
